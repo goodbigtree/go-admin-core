@@ -9,5 +9,5 @@ require (
 
 require (
 	github.com/magefile/mage v1.10.0 // indirect
-	golang.org/x/sys v0.0.0-20210603081109-ebe580a85c40 // indirect
+	golang.org/x/sys v0.7.0 // indirect
 )
