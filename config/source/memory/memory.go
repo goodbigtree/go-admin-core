@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-admin-team/go-admin-core/config/source"
+	"github.com/goodbigtree/go-admin-core/config/source"
 	"github.com/google/uuid"
 )
 

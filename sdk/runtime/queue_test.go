@@ -2,14 +2,13 @@ package runtime
 
 import (
 	"fmt"
-	"github.com/go-admin-team/redisqueue/v2"
 	"github.com/go-redis/redis/v9"
 	"reflect"
 	"testing"
 	"time"
 
-	"github.com/go-admin-team/go-admin-core/storage"
-	"github.com/go-admin-team/go-admin-core/storage/queue"
+	"github.com/goodbigtree/go-admin-core/storage"
+	"github.com/goodbigtree/go-admin-core/storage/queue"
 )
 
 func TestNewMemoryQueue(t *testing.T) {
