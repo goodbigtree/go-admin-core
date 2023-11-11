@@ -3,6 +3,7 @@ package queue
 import (
 	"fmt"
 	"github.com/go-redis/redis/v9"
+	"github.com/goodbigtree/redisqueue"
 	"sync"
 	"testing"
 	"time"

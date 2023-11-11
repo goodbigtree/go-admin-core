@@ -6,5 +6,3 @@ require (
 	github.com/goodbigtree/go-admin-core v1.3.11
 	go.uber.org/zap v1.10.0
 )
-
-//replace github.com/goodbigtree/go-admin-core => ../../../

@@ -1,6 +1,7 @@
 package queue
 
 import (
+	"github.com/goodbigtree/redisqueue"
 	"sync"
 
 	"github.com/goodbigtree/go-admin-core/storage"
