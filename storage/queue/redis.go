@@ -2,6 +2,8 @@ package queue
 
 import (
 	"github.com/goodbigtree/go-admin-core/storage"
+	"github.com/goodbigtree/redisqueue"
+	"github.com/redis/go-redis/v9"
 )
 
 // NewRedis redis模式

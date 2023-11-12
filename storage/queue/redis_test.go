@@ -2,6 +2,8 @@ package queue
 
 import (
 	"fmt"
+	"github.com/goodbigtree/redisqueue"
+	"github.com/redis/go-redis/v9"
 	"sync"
 	"testing"
 	"time"
