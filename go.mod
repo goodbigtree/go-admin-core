@@ -62,7 +62,7 @@ require (
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/goodbigtree/gorm-adapter v1.0.0 // indirect
 	github.com/goodbigtree/redis-watcher v1.0.0 // indirect
-	github.com/goodbigtree/redisqueue v1.0.3 // indirect
+	github.com/goodbigtree/redisqueue v1.0.0 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/gopherjs/gopherjs v1.17.2 // indirect
 	github.com/huandu/xstrings v1.3.3 // indirect
