@@ -8,9 +8,8 @@
 package queue
 
 import (
-	"github.com/go-admin-team/go-admin-core/storage"
+	"github.com/goodbigtree/go-admin-core/storage"
 	json "github.com/json-iterator/go"
-	"github.com/nsqio/go-nsq"
 )
 
 // NewNSQ nsq模式 只能监听一个channel

@@ -2,13 +2,12 @@ package queue
 
 import (
 	"fmt"
-	"github.com/go-admin-team/redisqueue/v2"
 	"log"
 	"sync"
 	"testing"
 	"time"
 
-	"github.com/go-admin-team/go-admin-core/storage"
+	"github.com/goodbigtree/go-admin-core/storage"
 )
 
 func TestMemory_Append(t *testing.T) {
