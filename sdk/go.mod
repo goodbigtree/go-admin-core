@@ -134,5 +134,3 @@ require (
 	gorm.io/driver/sqlite v1.4.3 // indirect
 	gorm.io/driver/sqlserver v1.4.1 // indirect
 )
-
-//replace github.com/goodbigtree/go-admin-core => ../
