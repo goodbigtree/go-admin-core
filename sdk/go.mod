@@ -12,10 +12,10 @@ require (
 	github.com/go-playground/universal-translator v0.18.1
 	github.com/go-playground/validator/v10 v10.15.5
 	github.com/golang-jwt/jwt/v4 v4.5.0
-	github.com/goodbigtree/go-admin-core v1.0.6
+	github.com/goodbigtree/go-admin-core v1.0.0
 	github.com/goodbigtree/go-admin-core/plugins/logger/zap v1.0.0
-	github.com/goodbigtree/gorm-adapter/v3 v3.0.0-20231112072021-97e277bf89d9
-	github.com/goodbigtree/redis-watcher/v2 v2.0.0-20231112071822-07a1bd75ac01
+	github.com/goodbigtree/gorm-adapter v1.0.0
+	github.com/goodbigtree/redis-watcher v1.0.0
 	github.com/google/uuid v1.4.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/mojocn/base64Captcha v1.3.5
