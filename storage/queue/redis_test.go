@@ -2,13 +2,13 @@ package queue
 
 import (
 	"fmt"
-	"github.com/go-redis/redis/v9"
-	"github.com/goodbigtree/redisqueue"
+	"github.com/go-admin-team/redisqueue/v2"
+	"github.com/redis/go-redis/v9"
 	"sync"
 	"testing"
 	"time"
 
-	"github.com/goodbigtree/go-admin-core/storage"
+	"github.com/go-admin-team/go-admin-core/storage"
 )
 
 func TestRedis_Append(t *testing.T) {

@@ -1,10 +1,10 @@
 package flag
 
 import (
+	"dario.cat/mergo"
 	"errors"
 	"flag"
-	"github.com/goodbigtree/go-admin-core/config/source"
-	"github.com/imdario/mergo"
+	"github.com/go-admin-team/go-admin-core/config/source"
 	"strings"
 	"time"
 )

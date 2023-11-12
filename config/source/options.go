@@ -3,8 +3,8 @@ package source
 import (
 	"context"
 
-	"github.com/goodbigtree/go-admin-core/config/encoder"
-	"github.com/goodbigtree/go-admin-core/config/encoder/json"
+	"github.com/go-admin-team/go-admin-core/config/encoder"
+	"github.com/go-admin-team/go-admin-core/config/encoder/json"
 )
 
 type Options struct {

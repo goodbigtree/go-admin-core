@@ -12,8 +12,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/goodbigtree/go-admin-core/logger"
-	"github.com/goodbigtree/go-admin-core/server/grpc/interceptors/logging/ctxlog"
+	"github.com/go-admin-team/go-admin-core/logger"
+	"github.com/go-admin-team/go-admin-core/server/grpc/interceptors/logging/ctxlog"
 	"google.golang.org/grpc"
 )
 

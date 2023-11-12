@@ -1,10 +1,10 @@
 package queue
 
 import (
-	"github.com/goodbigtree/redisqueue"
+	"github.com/go-admin-team/redisqueue/v2"
 	"sync"
 
-	"github.com/goodbigtree/go-admin-core/storage"
+	"github.com/go-admin-team/go-admin-core/storage"
 )
 
 type Message struct {

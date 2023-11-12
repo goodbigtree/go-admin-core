@@ -1,4 +1,4 @@
-# goodbigtree 公共代码库
+# go-admin-team 公共代码库
 
 ### 功能
  - [x] log组件
