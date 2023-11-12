@@ -28,6 +28,7 @@ require (
 	gorm.io/driver/mysql v1.5.2
 	gorm.io/gorm v1.25.5
 	gorm.io/plugin/dbresolver v1.4.7
+	github.com/goodbigtree/redisqueue v1.1.0
 )
 
 require (
