@@ -7,6 +7,9 @@ require (
 	go.uber.org/zap v1.26.0
 )
 
-require go.uber.org/multierr v1.10.0 // indirect
+require (
+	github.com/goodbigtree/go-admin-core v1.0.3 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
+)
 
 //replace github.com/go-admin-team/go-admin-core v1.3.11 => ../../../
