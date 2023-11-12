@@ -9,7 +9,7 @@ require (
 	github.com/chanxuehong/wechat v0.0.0-20230222024006-36f0325263cd
 	github.com/gin-gonic/gin v1.9.1
 	github.com/goodbigtree/go-admin-core v1.0.3
-	github.com/goodbigtree/go-admin-core/plugins/logger/zap v1.3.5-rc.0.0.20231103105142-2d9e40ec6f71
+	github.com/goodbigtree/go-admin-core/plugins/logger/zap v1.0.3
 	github.com/goodbigtree/gorm-adapter v1.0.3
 	github.com/goodbigtree/redis-watcher v1.0.3
 	github.com/goodbigtree/redisqueue v1.0.3
