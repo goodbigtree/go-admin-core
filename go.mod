@@ -1,4 +1,4 @@
-module github.com/go-admin-team/go-admin-core
+module github.com/goodbigtree/go-admin-core
 
 go 1.21
 
@@ -10,7 +10,7 @@ require (
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/gin-gonic/gin v1.9.1
-	github.com/go-admin-team/redisqueue/v2 v2.0.0
+	github.com/goodbigtree/redisqueue v1.0.3
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
 	github.com/google/uuid v1.4.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
