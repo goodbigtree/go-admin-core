@@ -12,7 +12,7 @@ require (
 	github.com/go-playground/universal-translator v0.18.1
 	github.com/go-playground/validator/v10 v10.15.5
 	github.com/golang-jwt/jwt/v4 v4.5.0
-	github.com/goodbigtree/go-admin-core v1.1.0
+	github.com/goodbigtree/go-admin-core v1.1.2
 	github.com/goodbigtree/go-admin-core/plugins/logger/zap v1.1.0
 	github.com/goodbigtree/gorm-adapter v1.1.0
 	github.com/goodbigtree/redis-watcher v1.1.0

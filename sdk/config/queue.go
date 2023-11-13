@@ -3,6 +3,8 @@ package config
 import (
 	"github.com/goodbigtree/go-admin-core/storage"
 	"github.com/goodbigtree/go-admin-core/storage/queue"
+	"github.com/goodbigtree/redisqueue"
+	"github.com/redis/go-redis/v9"
 	"time"
 )
 
