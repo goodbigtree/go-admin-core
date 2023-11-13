@@ -64,7 +64,7 @@ type GinJWTMiddleware struct {
 	LoginResponse func(*gin.Context, int, string, time.Time)
 
 	// User can define own AntdLoginResponse func.
-	AntdLoginResponse func(*gin.Context, int, string, time.Time)
+	AntdLoginResponse func(*gin.Context, int, string, time.Time, interface{})
 
 	// User can define own RefreshResponse func.
 	RefreshResponse func(*gin.Context, int, string, time.Time)
@@ -327,13 +327,14 @@ func (mw *GinJWTMiddleware) MiddlewareInit() error {
 	}
 
 	if mw.AntdLoginResponse == nil {
-		mw.AntdLoginResponse = func(c *gin.Context, code int, token string, expire time.Time) {
+		mw.AntdLoginResponse = func(c *gin.Context, code int, token string, expire time.Time, data interface{}) {
 			c.JSON(http.StatusOK, gin.H{
 				"code":             http.StatusOK,
 				"success":          true,
 				"token":            token,
 				"currentAuthority": token,
 				"expire":           expire.Format(time.RFC3339),
+				"user":             data,
 			})
 		}
 	}
@@ -483,7 +484,7 @@ func (mw *GinJWTMiddleware) LoginHandler(c *gin.Context) {
 		)
 	}
 
-	mw.AntdLoginResponse(c, http.StatusOK, tokenString, expire)
+	mw.AntdLoginResponse(c, http.StatusOK, tokenString, expire, data)
 }
 
 func (mw *GinJWTMiddleware) signedString(token *jwt.Token) (string, error) {
