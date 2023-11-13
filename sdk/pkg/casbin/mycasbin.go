@@ -1,6 +1,8 @@
 package mycasbin
 
 import (
+	"github.com/casbin/casbin/v2"
+	"github.com/redis/go-redis/v9"
 	"sync"
 
 	"github.com/casbin/casbin/v2/log"
@@ -8,10 +10,10 @@ import (
 	"github.com/goodbigtree/go-admin-core/logger"
 	"github.com/goodbigtree/go-admin-core/sdk"
 	"github.com/goodbigtree/go-admin-core/sdk/config"
-	redisWatcher "github.com/goodbigtree/redis-watcher/v2"
+	redisWatcher "github.com/goodbigtree/redis-watcher"
 	"gorm.io/gorm"
 
-	gormAdapter "github.com/goodbigtree/gorm-adapter/v3"
+	gormAdapter "github.com/goodbigtree/gorm-adapter"
 )
 
 // Initialize the model from a string.
