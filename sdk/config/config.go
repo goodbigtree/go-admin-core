@@ -54,6 +54,7 @@ type Config struct {
 	Queue       *Queue                `yaml:"queue"`
 	Locker      *Locker               `yaml:"locker"`
 	Extend      interface{}           `yaml:"extend"`
+	Client      interface{}           `yaml:"client"`
 }
 
 // 多db改造
@@ -82,6 +83,7 @@ func Setup(s source.Source,
 			Queue:       QueueConfig,
 			Locker:      LockerConfig,
 			Extend:      ExtendConfig,
+			Client:      ClientConfig,
 		},
 		callbacks: fs,
 	}
